@@ -13,6 +13,7 @@ sap.ui.define(["sap/ui/model/json/JSONModel", "sap/ui/core/mvc/Controller"], fun
                         oSubSection.setMode("Expanded");
                         oSubSection.getBlocks().forEach(function (oBlock) {
                             oBlock.setMode("Expanded");
+                            oBlock.setShowSubSectionMore(false);
                         });
                     });
                 });
